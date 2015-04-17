@@ -1,0 +1,35 @@
+/*Several helper classes for rapid development*/
+
+.align-right {
+	text-align: right;
+}
+.align-left {
+	text-align: left;
+}
+.align-center {
+	text-align: center;
+}
+.float-right {
+	float: right;
+}
+.float-left {
+	float: left;
+}
+.clear {
+	clear: both;
+}
+.uppercase {
+	text-transform: uppercase;
+}
+.lowercase {
+	text-transform: lowercase;
+}
+.capitalize  {
+	text-transform: capitalize;
+}
+.divider {
+	margin-bottom: 20px;
+}
+.hidden {
+	display:none;
+}

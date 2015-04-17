@@ -1,0 +1,26 @@
+/* These are most commonly used media queries */
+@media only screen and (max-width: 1024px) {
+  
+}
+@media only screen and (max-width: 800px) {
+  
+}
+@media only screen and (max-width: 600px) {
+  
+}
+@media only screen and (max-width: 480px) {
+  
+}
+@media only screen and (max-width: 320px) {
+  
+}
+/*Iphone 3 - 4*/
+@media only screen and (device-height: 480px) {
+  
+}
+/*Iphone 5 */
+@media (device-height: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+  body {
+    min-height: 568px;
+  }
+}
