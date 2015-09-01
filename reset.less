@@ -164,5 +164,15 @@ body {
 }
 
 
-
+/* FIREFOX SPECIFIC */
+/* Remove Arrows form select */
+select {
+  -moz-appearance: none;
+  text-indent: 0.01px;
+  text-overflow: '';
+  &:focus,
+  &:active {
+    outline: 0;
+  }
+}
 
