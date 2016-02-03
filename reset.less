@@ -9,7 +9,10 @@ html {
 	overflow-y:scroll;
 	height:100%;
 }
-
+body {
+	font:13px/1.231 sans-serif;
+	height:100%;
+}
 html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video {
 	border:0;
 	outline:0;
@@ -18,10 +21,24 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
 	background:transparent;
 	margin:0;
 	padding:0;
+	font-weight: normal;
 }
 
-article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section, main {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section, 
+main {
 	display:block;
+	margin:0;
+	padding:0;
 }
 
 a {
@@ -29,6 +46,7 @@ a {
 	font-size:100%;
 	vertical-align:baseline;
 	background:transparent;
+	border:none;
 	outline:none;
 	text-decoration:none;
 	margin:0;
@@ -38,7 +56,7 @@ a {
 	-o-transition:all ease-in-out 0.3s;
 	transition:all ease-in-out 0.3s;
 }
-
+a:hover,
 a:active,
 a:visited,
 a:focus,
@@ -46,12 +64,6 @@ a img {
 	outline:none;
 	text-decoration:none;
 	border:none;
-}
-a:hover,
-a:active,
-a:focus {
-	outline:none;
-	text-decoration:none;
 	color: inherit;
 }
 table {
@@ -59,7 +71,7 @@ table {
 	border-spacing:0;
 }
 select,input,textarea,button {
-	font:99%sans-serif;
+	font:99% inherit;
 }
 ol {
 	list-style-type:decimal;
@@ -78,7 +90,8 @@ input[type=checkbox] {
 	vertical-align:bottom;
 }
 
-label,input[type=button],input[type=submit],button {
+label,input[type=button],
+input[type=submit],button {
 	cursor:pointer;
 }
 
@@ -104,21 +117,21 @@ blockquote:before,blockquote:after,q:before,q:after {
 }
 
 ::selection {
+	color: transparent;
+	background-color: transparent;
 }
 
 h1,h2,h3,h4,h5,h6 {
-	font-weight:400;
+	font-weight: normal;
 }
 address {
 	font-style: normal;
 }
-body {
-	font:13px/1.231 sans-serif;
-	height:100%;
-}
+
 
 /* FIREFOX SPECIFIC */
-/* Remove Arrows form select */
+
+/* Remove Annoying Arrows from select dropdowns */
 select {
   -moz-appearance: none;
   text-indent: 0.01px;
